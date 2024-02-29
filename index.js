@@ -100,6 +100,8 @@ const deleteButton = document.querySelector('[data-delete]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 console.log(numberButtons)
+console.log(equalsButton);
+console.log(deleteButton);
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 
